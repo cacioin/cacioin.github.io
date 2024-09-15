@@ -1,0 +1,110 @@
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+body {
+    background-color: #FADAD8;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6vw;
+}
+body > header {
+    background-color: #D09E88;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 10px;
+    margin: 10px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+    height: 60px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 10px;
+    font-family: "Fredoka One", "Sans Serif";
+    color: #9B8281;
+    
+    border-radius: 3%;
+    text-shadow: 
+    -1px -1px 0 #534847,  /* Top-left */
+     1px -1px 0 #534847,  /* Top-right */
+    -1px  1px 0 #534847,  /* Bottom-left */
+     1px  1px 0 #534847;  /* Bottom-right */
+}
+
+.navbutton {
+    color: #512645;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #534847;
+    border-radius: 10%;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 80%;
+}
+
+#main-content aside {
+    width: 20%;
+}
+
+.profilelink {
+    color: #512645;
+    text-decoration: none;
+}
+
+.filtermonth {
+    color: #512645;
+}
+
+.filterhobby {
+    color: #512645;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: #D09E88;
+    display: flex;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 15px;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color: #534847;
+}
